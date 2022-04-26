@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:silver_gemstone/web_page.dart';
+import 'package:silver_gemstone/webpage.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SafeArea(child: WebViewStack()),
+      home: SafeArea(child: WebPage()),
     );
   }
 }
